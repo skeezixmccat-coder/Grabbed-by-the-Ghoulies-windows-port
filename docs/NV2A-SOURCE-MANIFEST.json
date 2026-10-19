@@ -1,0 +1,142 @@
+{
+  "repository": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded",
+  "commit": "585c49a50af1255ab155099e06f24505f9c5a800",
+  "files": [
+    {
+      "destination": "native/runtime/nv2a_gl/EmuNV2A_PGRAPH.cpp",
+      "upstream": "src/devices/video/EmuNV2A_PGRAPH.cpp",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "6c9ad884698ec81437f1dba1c870de4649b8a501e0fa023e3be09778f4e76311",
+      "portedSha256": "22dca41acec0da7a71fe451ff286efbb2292a11a1db90811dede38a21b1c3526"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_int.h",
+      "upstream": "src/devices/video/nv2a_int.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "c95e275a517c604d0533eb2590773681233c8badd2ea32c2bae8db8ac9d0d065",
+      "portedSha256": "76185582ccd57f024ac1c4069c025858237463b420bb6992a2947dd28276028d"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_regs.h",
+      "upstream": "src/devices/video/nv2a_regs.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "7617adb357cef7dbcba6705aa3216596cacd23bd5dd23bfce81dd5fe010f6396",
+      "portedSha256": "a856c30a7b7291585db7b7304314fbfa869a6e0075798bd041a9f75cf4e65e1c"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_shaders.cpp",
+      "upstream": "src/devices/video/nv2a_shaders.cpp",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "c7ff0e9b8aaed9ab20402c917fec902976c48658b18162b5e0533352c42f77d8",
+      "portedSha256": "8d388678cd17d0072ecddd43b6287f3b803d8316deb5144542efb04f9d0d9889"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_shaders.h",
+      "upstream": "src/devices/video/nv2a_shaders.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "b508042c40f106141b74b2770671bb0b585433540325f6848ff07b39ad62e1c5",
+      "portedSha256": "f49e5c2a2ffaf58c6ceb815a5c18e869e8c1792e01e9be6a501fa810a97fac68"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_shaders_common.h",
+      "upstream": "src/devices/video/nv2a_shaders_common.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "037d7fb3411c4b6ea836b6caf56004c04c6af862325872851c8186db93d6b431",
+      "portedSha256": "58f5af36e4e7adf836dd1bf6232f9cce745371fcbecf3617e4b90e806adcd4dc"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_vsh.cpp",
+      "upstream": "src/devices/video/nv2a_vsh.cpp",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "eceeb994c2fec44c80ca075a996c3f5410141305dc1d196b276026cd3fc22d83",
+      "portedSha256": "c6bfb2d3e9816a01736e34d7993a11345f2bb6d2989a2f70044b3888ce3b9494"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_vsh.h",
+      "upstream": "src/devices/video/nv2a_vsh.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "93b8575fbb1684da780aa00d38a0c45a11ffea2d70435ed34ae1d1182fb871ce",
+      "portedSha256": "d55f32522cfc7e45ffb0c7aa39dec53a8b4cb3b4f32c51a41908ab9f9c0c0c30"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_psh.cpp",
+      "upstream": "src/devices/video/nv2a_psh.cpp",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "3fa02ec62159c1e24add36269d9c21d1c479f9e9e060c3ab1184f8e16370f4fb",
+      "portedSha256": "7dfeb7593df010d442c9edeff6324593163eeca4dbef02849b38a96751c7cdc9"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_psh.h",
+      "upstream": "src/devices/video/nv2a_psh.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "1e7cf58da62972176427073e0d92a272205ccefc7817874c9cba1f4a77ec3b3d",
+      "portedSha256": "a533cf73942344d6dd3ea9bd903a2256abbb77471807412afc37e0b45d9357d1"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/swizzle.cpp",
+      "upstream": "src/devices/video/swizzle.cpp",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "85e1fd597819667d5aeb1bb297df0f9265cd14b6a5a084cdcee3360c5aced4e7",
+      "portedSha256": "04c474d44000cc3f3cb93a4bc1d13d6418ebf30efc9d855cde3b1ba08d2fff6a"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/swizzle.h",
+      "upstream": "src/devices/video/swizzle.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "990e8b3bb38f8e16018faae5f8d5bbe16574603176e20b17dc5cbe4d4c38d09a",
+      "portedSha256": "745d71de8ae180255ac6e807fac24c8deeed2dd7d1d4899c13d70788aa316b37"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/qstring.h",
+      "upstream": "src/devices/video/qstring.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "941287fad23e4eb529a456ad775ec3216cb5579617fb5f40eff5799f4f20c849",
+      "portedSha256": "941287fad23e4eb529a456ad775ec3216cb5579617fb5f40eff5799f4f20c849"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/glew.h",
+      "upstream": "import/glew-2.0.0/include/GL/glew.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "dc29fecd93da46de366c2741ea831f1221d4f758b27f8f3f8e4a62a045d4a6c1",
+      "portedSha256": "dc29fecd93da46de366c2741ea831f1221d4f758b27f8f3f8e4a62a045d4a6c1"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/wglew.h",
+      "upstream": "import/glew-2.0.0/include/GL/wglew.h",
+      "referenceCommit": "585c49a50af1255ab155099e06f24505f9c5a800",
+      "referenceSha256": "df332f32fe0110841f06bb5d91de62b7a77a5e8651f759eae0767d517d8bd882",
+      "portedSha256": "df332f32fe0110841f06bb5d91de62b7a77a5e8651f759eae0767d517d8bd882"
+    }
+  ],
+  "derivedGlue": {
+    "native/runtime/nv2a_gl/nv2a_gl.cpp": "DMA mapping adapted from src/devices/video/nv2a.cpp; new Windows WGL/loader and pixel conversion glue",
+    "native/runtime/nv2a_gl/compat.h": "Locally authored Windows/QEMU compatibility layer",
+    "native/runtime/nv2a_gl/nv2a_debug.h": "Replacement debug macros using reference macro names",
+    "native/runtime/nv2a_gl/gl_loader.inc": "Generated GL entry-point definitions using GLEW declaration types; local Load function",
+    "native/runtime/nv2a_gl/resolution.inc": "Locally authored host surface scaling, format-preserving guest resolves and scaled scan-out; see SOURCES.md",
+    "native/runtime/nv2a_gl/surface_owner.inc": "Locally authored deferred-surface ownership and write-watch preservation"
+  },
+  "continuationReferences": "docs/PORT-PROVENANCE.md (self-contained public index of additional adaptations and consulted interfaces)",
+  "derivedSha256": {
+    "native/runtime/nv2a_gl/nv2a_gl.cpp": "9ab80ea3a8b7c7ac19d437164ff8a1d6b14e77b6c2bae6d9f0dd5ea0ce778797",
+    "native/runtime/nv2a_gl/compat.h": "c84b3df30187523f6fd026f207cb80909127f53da62e2b0719adb108607f1376",
+    "native/runtime/nv2a_gl/nv2a_debug.h": "4a51d7aa6e2c2b7ec9b34e44e2cc70dd92e0f9ce2b287dba7009da89cf5966e7",
+    "native/runtime/nv2a_gl/gl_loader.inc": "4c7ad1971ed1b5bf1957a9a05be74b94df9b3ddddc781131afb587a6503bb9c2",
+    "native/runtime/nv2a_gl/resolution.inc": "f9654a6bb0ff185ecfcc399cf0d09d48e4d2f87cb456471da8c95b0cd8e6c973",
+    "native/runtime/nv2a_gl/surface_owner.inc": "be76d8343f07daff429279e5c928f7d16f534e6f7cb6df7c98569156ba14aa68"
+  },
+  "additionalAdaptations": [
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_psh.cpp",
+      "reference": "https://raw.githubusercontent.com/xemu-project/xemu/36334d95b86f9c3c6ae34efb9af06785273f8e1a/hw/xbox/nv2a/pgraph/glsl/psh.c",
+      "referenceSha256": "c68f36467d100c119314e9da5b94b1b1485ffccdd4fceda360934bcc286b19bb",
+      "use": "HILO and linear texture-coordinate expressions; GPL v2 selected"
+    },
+    {
+      "destination": "native/runtime/nv2a_gl/nv2a_shaders.cpp",
+      "reference": "https://raw.githubusercontent.com/xemu-project/xemu/36334d95b86f9c3c6ae34efb9af06785273f8e1a/hw/xbox/nv2a/pgraph/glsl/vsh-ff.c",
+      "referenceSha256": "5925879fc536fb6fafb8f5922b564ecd0df5c4151fba5b182c0a330ab038af24",
+      "use": "Fixed-function viewport expression; LGPL v2-or-later portion distributed under GPL v2 via LGPL section 3"
+    }
+  ]
+}
