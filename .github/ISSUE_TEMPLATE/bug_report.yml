@@ -1,0 +1,64 @@
+name: Bug report
+description: Report a crash, rendering, sound, input or performance issue
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing! Please never attach game files (ISO/XBE), the launcher cache, saves or memory dumps.
+        Nothing below asks for personal information; please don't include names, emails or account details.
+  - type: input
+    id: version
+    attributes:
+      label: Preview version
+      description: Release name (for example "public preview rc1") or the SHA-256 of Ghoulies.exe.
+    validations:
+      required: true
+  - type: input
+    id: cpu
+    attributes:
+      label: CPU
+      placeholder: e.g. Ryzen 5 7600X
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      placeholder: e.g. RTX 5070 Ti
+    validations:
+      required: true
+  - type: input
+    id: driver
+    attributes:
+      label: GPU driver version
+      placeholder: e.g. NVIDIA 610.88
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: e.g. Windows 11 24H2
+    validations:
+      required: false
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Scene and steps to reproduce
+      description: Chapter/room or challenge, what you did, what you expected and what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Graphics settings
+      description: Render resolution, 30/60fps and filtering. Does locked 30fps or Original filtering change the issue?
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log and STOP code
+      description: If the game stopped, note the STOP code. Use "Open logs" in the launcher and attach report.txt and settings.json from the newest folder.
+    validations:
+      required: false
