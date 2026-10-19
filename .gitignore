@@ -1,0 +1,18 @@
+build/
+generated/
+evidence/
+native-storage/
+__pycache__/
+*.pyc
+*.xbe
+*.iso
+*.7z
+*.pe32
+docs/tasks/locks/*.lock
+build/native/helper.lock
+
+# Local launcher settings, game logs and compiled frontend
+/launcher-settings.json
+/launcher-settings.json.tmp-*
+/Ghoulies.exe
+/logs/
